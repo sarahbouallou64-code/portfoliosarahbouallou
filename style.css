@@ -1,0 +1,116 @@
+:root {
+    --rose: #f3dede;
+    --beige: #fff8f2;
+    --marron: #a67c73;
+    --bleu: #c7dce8;
+    --rose-fonce: #b86b77;
+    --noir-doux: #2b2b2b;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("papierpaint.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+header {
+    background-color: var(--beige);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--marron);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-card {
+    width: 60%;
+    max-width: 500px;
+    padding: 100px;
+    text-align: center;
+    background-image: url("cadre.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover-card h1 {
+    font-family: 'Playfair Display';
+    font-size: 80px;
+    margin: 0;
+    color: rgb(175, 96, 109);
+}
+
+.cover-card h2 {
+    font-family: "Parisienne";
+    font-size: 40px;
+    margin-top: 0px;
+    color: rgb(80, 146, 208);
+}
+
+.section-img {
+    display: none;
+    position: absolute;
+    right: 300px;
+    top: 60px;
+}
+
+.img-hero {
+    width: 250px;
+}
+
+.img-about {
+    width: 500px;
+}
+
+#projects h2,
+#about h2,
+#contact h2,
+#experience h2,
+#formation h2,
+#portfolio-login h2,
+#api-project h2 {
+    font-family: "Playfair Display";
+    font-size: 50px;
+    color: rgb(175, 96, 109);
+}
+
+p {
+    font-family: "Poppins";
+    font-size: 20px;
+    color: rgb(61, 38, 42);
+}
+
+
+section p {
+    margin-left: 50px;
+}
+
+.project-img {
+    width: 400px;
+    margin-left: 850px;
+    margin-top: -350px;
+    border-radius: 10px;
+}
